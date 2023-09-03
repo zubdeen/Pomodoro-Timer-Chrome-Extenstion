@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Timer Extension",
+    "version": "1.0",
+    "description": "A simple timer that gives you 25 minutes to work and 5 minutes to break time.",
+    "permissions": [
+        "alarms",
+        "notifications"
+      ],
+    "action" : {
+        "default_title": "Pomodoro Timer",
+        "default_popup": "popup.html"
+    }
+}
